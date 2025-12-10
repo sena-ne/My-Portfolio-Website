@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Nethuli Senanayake</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <div class="logo"><i class="fas fa-code"></i> My Portfolio</div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="active"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="#about"><i class="fas fa-user"></i> About</a></li>
+                <li><a href="#projects"><i class="fas fa-folder-open"></i> Projects</a></li>
+                <li><a href="#contact"><i class="fas fa-envelope"></i> Contact Me</a></li>
+            </ul>
+            <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                <i class="fas fa-moon"></i>
+            </button>
+            <button class="mobile-toggle" id="mobileToggle"><i class="fas fa-bars"></i></button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home">
+        <div class="hero-content">
+            <div class="avatar">
+                <div class="avatar-inner"><i class="fas fa-user-tie"></i></div>
+            </div>
+            <h1>Hi, I am Nethuli Senanayake</h1>
+            <p class="subtitle">Aspiring Software Engineer</p>
+            <p class="description"> 
+                Passionate about clean code and innovative solutions.
+            </p>
+            <div class="social-links">
+                <a href="#media-icon" class="social-icon" aria-label="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="#media-icon" class="social-icon" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="#media-icon" class="social-icon" aria-label="ResearchGate">
+                    <i class="fab fa-researchgate"></i>
+                </a>
+                <a href="#contactSubtitle" class="social-icon" aria-label="Email">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2><i class="fas fa-user-circle"></i> About Me</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>
+                        I'm currently pursuing my undergraduate degree in Software Engineering and learning how to apply what I study to real-world situations. 
+                        I’m interested in understanding both the theory and the practice — whether it's through projects, coursework, or personal exploration.
+                        What drives me is curiosity. I enjoy working on things that challenge me to think differently, problem-solve, and improve with feedback. 
+                        I'm always looking for ways to grow — especially by learning from others.
+                    </p>
+                    <p>
+                        I’m open to opportunities where I can gain experience, contribute meaningfully, and continue learning beyond the classroom to solve real-world problems.
+                    </p>
+                </div>
+                
+                <div class="skills-container">
+                    <h3 class="skills-heading"><i class="fas fa-laptop-code"></i> Skills</h3>
+                    <div class="skill-card">
+                        <h4><i class="fas fa-palette"></i> Frontend</h4>
+                        <div class="skill-tags">
+                            <span class="skill-tag"><i class="fa-brands fa-html5"></i> HTML</span>
+                            <span class="skill-tag"><i class="fab fa-js"></i> JavaScript</span>
+                            <span class="skill-tag"><i class="fa-brands fa-css3-alt"></i> CSS</span>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <h4><i class="fas fa-server"></i> Backend</h4>
+                        <div class="skill-tags">
+                            <span class="skill-tag"><i class="fa-brands fa-java"></i> Java</span>
+                            <span class="skill-tag"><i class="fab fa-python"></i> Python</span>
+                            <span class="skill-tag"><i class="fa-brands fa-php"></i> PHP</span>
+                            <span class="skill-tag"><i class="fas fa-database"></i> MySQL</span>
+                            <span class="skill-tag"><i class="devicon-cplusplus-plain"></i> C++</span>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <h4><i class="fas fa-tools"></i> Tools</h4>
+                        <div class="skill-tags">
+                            <span class="skill-tag"><i class="fab fa-git-alt"></i> Git</span>
+                            <span class="skill-tag"><i class="fab fa-figma"></i> Figma</span>
+                            <span class="skill-tag"><i class="fa-brands fa-linux"></i> Linux</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Education Section (Centered Below) -->
+            <div class="education-section">
+                <h3 class="education-title"><i class="fas fa-graduation-cap"></i> Education & Certifications</h3>
+                <div class="education-timeline">
+                    <div class="education-item">
+                        <div class="education-year"><i class="fas fa-calendar-alt"></i> 2019 - 2024</div>
+                        <div class="education-content">
+                            <h4><i class="fa-solid fa-school"></i> G.C.E. Ordinary & Advanced Level</h4>
+                            <p>Lyceum International School</p>
+                        </div>
+                    </div>
+                    <div class="education-item">
+                        <div class="education-year"><i class="fas fa-calendar-alt"></i> 2025 - 2029</div>
+                        <div class="education-content">
+                            <h4><i class="fas fa-university"></i> Bachelor of Science in Software Engineering</h4>
+                            <p>General Sir John Kotelawala Defence University (KDU)</p>
+                        </div>
+                    </div>
+                    <div class="education-item">
+                        <div class="education-year"><i class="fas fa-calendar-alt"></i> 2025</div>
+                        <div class="education-content">
+                            <h4><i class="fa-solid fa-network-wired"></i> CCNA: Introduction to Networks <a href="https://www.credly.com/badges/2cdf80e5-6b93-4f1a-b15b-b95f33d3c140/public_url" class="cretificate-link " target="_blank"><i class="fas fa-external-link-alt"></i></a></h4>
+                            <p> Cisco Networking Academy</p>
+                        </div>
+                    </div>
+                    <!-- Show toggle placed below the CCNA item -->
+                    <div class="education-toggle-wrap">
+                        <button id="educationToggle" class="education-toggle below" aria-expanded="false" aria-controls="hidden-item">Show More <span class="plus"><i class="fa-solid fa-chevron-down"></i></span></button>
+                    </div>
+                    
+                    <!-- Hidden additional item revealed via Show more -->
+                    <div id="hidden-item" class="education-item hidden">
+                        <div class="education-year"><i class="fas fa-calendar-alt"></i> 2025</div>
+                        <div class="education-content">
+                            <h4><i class="fa-brands fa-linux"></i> Introduction to Linux (LFS101) <a href="https://www.credly.com/badges/1315373f-8d48-4ee3-81ed-1025d6e01e13/public_url" class="cretificate-link " target="_blank"><i class="fas fa-external-link-alt"></i></a></h4>
+                            <p>The Linux Academy</p>
+                        </div>
+                    </div>
+                    <div class="education-hide-wrap">
+                        <button id="educationHide" class="education-toggle hide" aria-controls="hidden-item">Show Less <i class="fa-solid fa-chevron-up"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h2><i class="fas fa-briefcase"></i> Featured Projects</h2>
+            <div class="projects-grid">
+                
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="slideshow-container">
+                        <div class="slide fade">
+                            <div class="slide-img"><img src="images/project1/home.jpg" alt="Website Image 1"></div>
+                        </div>
+                        <div class="slide fade">
+                            <div class="slide-img"><img src="images/project1/shop.jpg" alt="Website Image 2"></div>
+                        </div>
+                        <div class="slide fade">
+                            <div class="slide-img"><img src="images/project1/login.jpg" alt="Website Image 3"></div>
+                        </div>
+                        <div class="slide fade">
+                            <div class="slide-img"><img src="images/project1/about.jpg" alt="Website Image 4"></div>
+                        </div>
+                        <div class="slide fade">
+                            <div class="slide-img"><img src="images/project1/admin.jpg" alt="Website Image 5"></div>
+                        </div>
+                        <div class="slide fade">
+                            <div class="slide-img"><img src="images/project1/dashboard.jpg" alt="Website Image 6"></div>
+                        </div>
+                        <div class="slide fade">
+                            <div class="slide-img"><img src="images/project1/cart.jpg" alt="Website Image 7"></div>
+                        </div>
+                        <button class="prev" onclick="changeSlide(-1, 0)"><i class="fas fa-chevron-left"></i></button>
+                        <button class="next" onclick="changeSlide(1, 0)"><i class="fas fa-chevron-right"></i></button>
+                        <img class="card-thumb" src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='800' height='500'><rect width='100%25' height='100%25' fill='%23e2e8f0'/><text x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-size='24' fill='%2364748b'>Project+Thumbnail</text></svg>" alt="Project thumbnail">
+                        <button class="open-slideshow-btn" aria-label="Open slideshow">Click Me</button>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <span class="project-icon"><i class="fas fa-laptop-code"></i></span>
+                            <a href="#projects" class="project-link"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                        <h3>University Cafeteria Management System</h3>
+                        <p class="project-para">Is an innovative digital platform developed to automate and optimize the daily operations of a university cafeteria. 
+                           This aims to improve the overall efficiency of food service management by simplifying tasks such as menu browsing, order placement, and payment processing, thereby reducing waiting times and minimizing manual errors.
+                        </p>
+                        <div class="tech-tags">
+                            <span class="tech-tag"><i class="fa-brands fa-html5"></i> HTML</span>
+                            <span class="tech-tag"><i class="fa-brands fa-css3-alt"></i> CSS</span>
+                            <span class="tech-tag"><i class="fab fa-js"></i> JavaScript</span>
+                            <span class="tech-tag"><i class="fa-brands fa-php"></i> PHP</span>
+                            <span class="tech-tag"><i class="fas fa-database"></i> MySQL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="slideshow-container">
+                        <div class="slide fade">
+                            <div class="slide-img"><img src="images/project2/img1.png" alt="App Image 1"></div>
+                        </div>
+                        <div class="slide-img">
+                            <div class="slide-img"><img src="images/project2/img2.png" alt="App Image 2"></div>
+                        </div>
+                        <div class="slide fade">
+                            <div class="slide-img"><img src="images/project2/img3.png" alt="App Image 3"></div>
+                        </div>
+                        <button class="prev" onclick="changeSlide(-1, 1)"><i class="fas fa-chevron-left"></i></button>
+                        <button class="next" onclick="changeSlide(1, 1)"><i class="fas fa-chevron-right"></i></button>
+                        <img class="card-thumb" src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='800' height='500'><rect width='100%25' height='100%25' fill='%23e2e8f0'/><text x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-size='24' fill='%2364748b'>Project+Thumbnail</text></svg>" alt="Project thumbnail">
+                        <button class="open-slideshow-btn" aria-label="Open slideshow">Click Me</button>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <span class="project-icon"><i class="fas fa-clipboard-list"></i></span>
+                            <a href="#projects" class="project-link"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                        <h3>zenList: Task Management App</h3>
+                        <p>This minimalist, mobile-first task management application enables rapid task input through a two-tap creation flow, supports seamless drag-and-drop reordering, and offers calming visual themes to maintain a focused user experience.  
+                            Designed for a broad user base — including students, creators, and everyday thinkers — it delivers a streamlined, human-centered productivity solution that stays out of the way while supporting effective task management.
+                        </p>
+                        <div class="tech-tags">
+                            <span class="tech-tag"><i class="devicon-dart-plain"></i> Dart</span>
+                            <span class="tech-tag"><i class="fa-brands fa-swift"></i> Swift</span>
+                            <span class="tech-tag"><i class="fa-brands fa-html5"></i> HTML</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="slideshow-container">
+                        <div class="slide fade">
+                            <div class="slide-img"><img src="images/project3/image1.jpg" alt="Interface Image 1"></div>
+                        </div>
+                        <!--<div class="slide fade">
+                            <div class="slide-img"><i class="fas fa-chart-line"></i></div>
+                        </div>
+                        <div class="slide fade">
+                            <div class="slide-img"><i class="fas fa-globe"></i></div>
+                        </div>-->
+                        <button class="prev" onclick="changeSlide(-1, 2)"><i class="fas fa-chevron-left"></i></button>
+                        <button class="next" onclick="changeSlide(1, 2)"><i class="fas fa-chevron-right"></i></button>
+                        <img class="card-thumb" src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='800' height='500'><rect width='100%25' height='100%25' fill='%23e2e8f0'/><text x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-size='24' fill='%2364748b'>Project+Thumbnail</text></svg>" alt="Project thumbnail">
+                        <button class="open-slideshow-btn" aria-label="Open slideshow">Click me</button>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <span class="project-icon"><i class="fa-solid fa-robot"></i></span>
+                            <a href="#projects" class="project-link"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                        <h3>Fire Fighting Robot</h3>
+                        <p>Is built using an ESP32 microcontroller paired with an ESP-CAM (ESP32-CAM) module, enabling both autonomous sensing and real-time remote control.
+                           The ESP-CAM module captures live video, which is streamed to a web-based interface hosted directly by the ESP32.
+                           Through this interface, users can monitor the environment in real time, navigate the robot, and make informed decisions during fire-response operations.
+                        </p>
+                        <div class="tech-tags">
+                            <span class="tech-tag"><i class="fa-brands fa-html5"></i> HTML</span>
+                            <span class="tech-tag"><i class="fa-brands fa-css3-alt"></i> CSS</span>
+                            <span class="tech-tag"><i class="devicon-cplusplus-plain"></i> C++</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="contact-content">
+            <h2><i class="fas fa-paper-plane"></i> Get In Touch</h2>
+            <p class="contact-subtitle" id="contactSubtitle">
+                I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.
+            </p>
+            
+            <!-- Contact Form -->
+            <form class="contact-form" id="contactForm" action="https://formspree.io/f/xqarylno" method="POST" >
+                <div class="form-group">
+                    <label for="name"><i class="fas fa-user"></i> Name</label>
+                    <input type="text" id="name" name="name" required placeholder="Your Name">
+                </div>
+                <div class="form-group">
+                    <label for="email"><i class="fas fa-envelope"></i> Email</label>
+                    <input type="email" id="email" name="email" required placeholder="your.email@example.com">
+                </div>
+                <div class="form-group">
+                    <label for="subject"><i class="fas fa-tag"></i> Subject</label>
+                    <input type="text" id="subject" name="subject" required placeholder="Your Inquiry">
+                </div>
+                <div class="form-group">
+                    <label for="message"><i class="fas fa-comment-dots"></i> Message</label>
+                    <textarea id="message" name="message" rows="5" required placeholder="Your message here..."></textarea>
+                </div>
+                <button type="submit" class="submit-btn">
+                    <i class="fas fa-paper-plane"></i> Send Message
+                </button>
+            </form>
+
+            <div class="contact-social" id="media-icon">
+                <a href="https://github.com/sena-ne" class="contact-icon" aria-label="GitHub" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/nethulisenanayake?utm_source=share_via&utm_content=profile&utm_medium=member_android" class="contact-icon" aria-label="LinkedIn" target="_blank">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="https://www.researchgate.net/profile/Nethuli-Senanayake" class="contact-icon" aria-label="ResearchGate" target="_blank">
+                    <i class="fab fa-researchgate"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p><i class="far fa-copyright"></i> 2025 Nethuli Senanayake | All Rights Reserved | Built with HTML • CSS • JavaScript</p>
+    </footer>
+
+    <!-- Modal Slideshow Overlay -->
+    <div class="slideshow-modal" id="slideshowModal" aria-hidden="true">
+        <div class="modal-backdrop" id="modalBackdrop"></div>
+        <div class="slideshow-modal-content" role="dialog" aria-modal="true">
+            <button class="modal-close" id="modalClose" aria-label="Close slideshow">&times;</button>
+            <button class="modal-prev" id="modalPrev" aria-label="Previous">&#10094;</button>
+            <div class="modal-slides" id="modalSlides"></div>
+            <button class="modal-next" id="modalNext" aria-label="Next">&#10095;</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
