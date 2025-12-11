@@ -11,6 +11,7 @@
     --accent-primary: #64ffda;
     --accent-secondary: #4fd1c5;
     --accent-tertiary: #38b2ac;
+    --accent-quaternary: #559485;
     --card-bg: rgba(100, 255, 218, 0.1);
     --card-border: rgba(100, 255, 218, 0.3);
     --input-bg: rgba(100, 255, 218, 0.15);
@@ -28,6 +29,7 @@
     --accent-primary: #0891b2;
     --accent-secondary: #06b6d4;
     --accent-tertiary: #22d3ee;
+    --accent-quaternary: #62cfe2;
     --card-bg: rgba(255, 255, 255, 0.95);
     --card-border: rgba(8, 145, 178, 0.2);
     --input-bg: rgba(224, 242, 254, 0.9);
@@ -125,7 +127,7 @@ nav.scrolled {
 }
 
 .theme-toggle:hover {
-    background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
+    background: var(--accent-quaternary);
     border-color: var(--accent-primary);
     transform: scale(1.05);
 }
@@ -162,9 +164,9 @@ section {
 }
 
 .avatar {
-    width: 150px;
-    height: 150px;
-    margin: 0 auto 2rem;
+    width: 200px;
+    height: 200px;
+    margin: 3rem auto 2rem;
     border-radius: 50%;
     background: linear-gradient(135deg, var(--accent-primary) 0%, var(--accent-secondary) 50%, var(--accent-tertiary) 100%);
     padding: 4px;
@@ -178,10 +180,13 @@ section {
     height: 100%;
     border-radius: 50%;
     background: var(--bg-primary);
+    background-image: url(images/profile.png), url(images/user-regular-full.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 3rem;
     color: var(--accent-primary);
 }
 
@@ -230,7 +235,7 @@ h1 {
 }
 
 .social-icon:hover {
-    background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
+    background: var(--accent-quaternary);
     transform: scale(1.1);
     border-color: var(--accent-primary);
 }
@@ -345,7 +350,6 @@ h2 {
 .education-toggle {
     margin-left: 1rem;
     background: transparent;
-    /*border: 1px solid var(--card-border);*/
     border: none;
     color: var(--accent-primary);
     padding: 0.25rem 0.5rem;
@@ -355,6 +359,7 @@ h2 {
     display: inline-flex;
     align-items: center;
     gap: 0.4rem;
+    font-size: medium;
 }
 
 .education-toggle .plus {
@@ -886,7 +891,7 @@ h2 {
 }
 
 .contact-icon:hover {
-    background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
+    background: var(--accent-quaternary);
     transform: scale(1.1);
     border-color: var(--accent-primary);
 }
@@ -1005,8 +1010,8 @@ footer {
     }
 
     .avatar {
-        width: 120px;
-        height: 120px;
+        width: 150px;
+        height: 150px;
     }
 
     .avatar-inner {
@@ -1151,8 +1156,8 @@ footer {
     }
 
     .avatar {
-        width: 100px;
-        height: 100px;
+        width: 150px;
+        height: 150px;
         margin-bottom: 1.5rem;
     }
 

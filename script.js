@@ -32,6 +32,10 @@ document.addEventListener('DOMContentLoaded', function() {
     showSlides(0, 0);
     showSlides(0, 1);
     showSlides(0, 2);
+    // Ensure slideshow images and thumbnails are lazy-loaded for better performance
+    document.querySelectorAll('.slide img, .card-thumb').forEach(img => {
+        try { img.setAttribute('loading', 'lazy'); } catch (e) { /* ignore if not an element */ }
+    });
 });
 
 function changeSlide(n, projectIndex) {
@@ -194,6 +198,8 @@ if (contactForm) {
             if (item.type === 'img') {
                 const img = document.createElement('img');
                 img.src = item.src;
+                // lazy-load modal images as well
+                img.setAttribute('loading', 'lazy');
                 img.alt = item.alt || '';
                 slideEl.appendChild(img);
             } else {
@@ -306,7 +312,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
-        // Hide button handler: hide the hidden item and restore the 'Show me' button
+        // Hide button handler: hide the hidden item and restore the 'Show more' button
         if (hideBtn) {
             hideBtn.addEventListener('click', () => {
                 // hide the item
